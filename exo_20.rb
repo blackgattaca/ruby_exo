@@ -1,3 +1,5 @@
+#programme demande à l'utilisateur un nombre entre 1 et 25 et qui sort une pyramide à descendre d' autant d'étages que ce nombre.
+
 count = 0
 i = "#"
 pyramide = ["#"]
@@ -7,7 +9,7 @@ print ">"
 etage = gets.to_i
 
 puts etage
-puts "Voici la pyramide, example1:"
+puts "Voici la pyramide"
 
 puts pyramide 
 
