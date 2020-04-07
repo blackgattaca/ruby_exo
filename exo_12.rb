@@ -7,8 +7,8 @@ puts "Donne-moi un nombre :"
 count = gets.chomp.to_i
 
 
-
 count.times do |i|
+   i += 1
     puts "count: #{i}"
     
 end
